@@ -15,7 +15,7 @@ function showModal(id) {
     var image = document.getElementById('modalImage');
     var caption = document.getElementById('caption');
     
-    image.src = "/images/"+id+".PNG";
+    image.src = "images/"+id+".PNG";
     caption.innerHTML = captions[id];
     
     modal.style.display = "block";
